@@ -50,7 +50,7 @@ input {
   outline: none;
 }
 
-#fname,
+#fullName,
 #email {
   height: 2rem;
   width: 18rem;
@@ -76,7 +76,7 @@ textarea {
     height: 2rem;
     width: 35rem;
   }
-  #fname,
+  #fullName,
   #email {
     height: 2rem;
     width: 16.5rem;
@@ -100,7 +100,7 @@ textarea {
     height: 3rem;
     width: 38rem;
   }
-  #fname,
+  #fullName,
   #email {
     height: 2.6rem;
     width: 18rem;
