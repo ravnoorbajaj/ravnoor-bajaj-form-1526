@@ -1,0 +1,112 @@
+/*
+#DDD
+
+#F5F5F5
+
+#6495ED
+ */
+
+body {
+  font-family: Arial, Helvetica, " Helvetica Neue", sans-serif;
+  line-height: 1rem;
+  font-size: 1rem;
+  padding: 1rem;
+  max-width: 50rem;
+  margin: 0 auto;
+}
+
+h1 {
+  display: inline-block;
+  font-size: x-large;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ddd;
+  padding: 1.5rem;
+  background-color: white;
+  z-index: 99;
+  margin-top: -4rem;
+}
+
+.contact-form {
+  max-width: 20rem;
+  background-color: #f5f5f5;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ddd;
+  padding: 1rem 0.5rem 2rem 1.2rem;
+}
+
+input {
+  line-height: 2rem;
+}
+
+#button {
+  background-color: #6495ed;
+  color: white;
+  text-align: center;
+  padding: 0.5rem 6.7rem 0.5rem 6.7rem;
+  font-size: 1.5rem;
+  box-shadow: none;
+  outline: none;
+}
+
+#fname,
+#email {
+  height: 2rem;
+  width: 18rem;
+}
+textarea {
+  height: 4rem;
+  width: 18rem;
+}
+@media only screen and (min-width: 40rem) {
+  .contact-form {
+    max-width: 50rem;
+    margin: 0 auto;
+  }
+  .fname {
+    float: left;
+  }
+  .email {
+    float: left;
+    margin-top: -1rem;
+    margin-left: 1rem;
+  }
+  textarea {
+    height: 2rem;
+    width: 35rem;
+  }
+  #fname,
+  #email {
+    height: 2rem;
+    width: 16.5rem;
+  }
+  #button {
+    padding: 0.2rem 2rem 0.2rem 2rem;
+    font-size: 1rem;
+  }
+  .msg {
+    margin-top: 4.5rem;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 50rem) {
+  .contact-form {
+    max-width: 50rem;
+    margin: 0 auto;
+  }
+  textarea {
+    height: 3rem;
+    width: 38rem;
+  }
+  #fname,
+  #email {
+    height: 2.6rem;
+    width: 18rem;
+  }
+  #button {
+    padding: 0.2rem 2rem 0.2rem 2rem;
+    font-size: 1rem;
+  }
+}
